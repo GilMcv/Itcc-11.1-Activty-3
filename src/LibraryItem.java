@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class LibraryItem {
+public interface LibraryItem {
+    void borrowItem();
+    void returnItem();
+    boolean isBorrowed();
 }
